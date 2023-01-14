@@ -14,7 +14,7 @@ const db = mongoose.connection
 db.on('error', (error) => console.error(error))
 db.once('open', () => console.log('Connected to Database'))
 
-//Declaring for our app that the response is gonna be json
+//Declaring JSON content type for response
 app.use(express.json())
 
 //Setting the routes for the REst endpoints 

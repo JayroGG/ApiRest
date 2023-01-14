@@ -1,1 +1,29 @@
 GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/63c24c9f6a0f7b7152823848
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Admin Name",
+    "role": "admin"
+}
+
+###
+
+DELETE http://localhost:3000/users/63c25c118d2a3a641abc2887
+
+###
+
+PATCH http://localhost:3000/users/63c25c6a8d2a3a641abc2891
+Content-Type: application/json
+
+{
+    "name": "New Name",
+    "role": "user"
+}

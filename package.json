@@ -4,6 +4,7 @@
   "description": "Test for an API",
   "main": "server.js",
   "scripts": {
+    "Start" : "node server.js",
     "devStart": "nodemon server.js"
   },
   "repository": {
