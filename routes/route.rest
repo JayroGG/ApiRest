@@ -2,7 +2,7 @@ GET http://localhost:3000/users
 
 ###
 
-GET http://localhost:3000/users/63c24c9f6a0f7b7152823848
+GET http://localhost:3000/users/63c25c6a8d2a3a641abc2891
 
 ###
 
@@ -16,11 +16,11 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/users/63c25c118d2a3a641abc2887
+DELETE http://localhost:3000/users/63c8dba8d36dcfc0f26d0077
 
 ###
 
-PATCH http://localhost:3000/users/63c25c6a8d2a3a641abc2891
+PATCH http://localhost:3000/users/63c8dba8d36dcfc0f26d0077
 Content-Type: application/json
 
 {

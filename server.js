@@ -1,3 +1,4 @@
+//Configuring my variables .env
 require('dotenv').config()
  
 //Requiring the modules
@@ -21,5 +22,6 @@ app.use(express.json())
 const usersRouter = require('./routes/users')
 app.use('/users', usersRouter)
 
-//API listening 
-app.listen(3000, () => console.log('Server Up'))
+//API listening
+const port = process.env.PORT
+app.listen(port, () => console.log(`Server Up on http://localhost:${port}/users`))

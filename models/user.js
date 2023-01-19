@@ -1,5 +1,7 @@
+//Requiring module for MongoDB
 const mongoose = require('mongoose')
 
+//Schema
 const userSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -16,4 +18,6 @@ const userSchema = new mongoose.Schema({
     }
 })
 
-module.exports = mongoose.model('User', userSchema)
+//Creating model with schema and exporting the model
+const user = mongoose.model('User', userSchema)
+module.exports = user
